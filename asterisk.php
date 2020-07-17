@@ -3,9 +3,18 @@
 <head>
 	<meta charset="utf-8">
 	<meta >
-	<title>first php class</title>
+	<title>Asterisk Code</title>
 </head>
 <body>
+    <?php
+        for ($r =1; $r <=10; $r++){
+            echo "<br>";
+
+        for ($p = 1; $p <=10-$r; $p++) {
+                echo "*";
+        }
+    }
+     ?>
 	 <?php
         echo "<pre>";
         $space = 10;
@@ -23,5 +32,15 @@
         }
         echo "</pre>";
 	 ?>
+
+     <?php
+        for ($r =1; $r <=10; $r++){
+            echo "<br>";
+
+        for ($p = 1; $p <=$r; $p++) {
+                echo "*";
+        }
+    }
+     ?>
 </body>
 </html>
